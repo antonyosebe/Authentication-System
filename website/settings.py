@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'crispy_bootstrap5'
 
 ]
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
+
+CRISPY_TEMPLATE_PACK = "bootstrap5"
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -81,12 +85,14 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'd22tfhs53u4c6c',
-        'USER':'u871ko9k731u1e',
-        'PASSWORD':'p6ac64ba937c1b04374d12f0c99f75f497d387cc72e9580f58e0a6f4b0a8bcad8',
-        'HOST':'c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
-        'PORT':'5432'
+        'USER': 'u871ko9k731u1e',
+        'PASSWORD': 'p6ac64ba937c1b04374d12f0c99f75f497d387cc72e9580f58e0a6f4b0a8bcad8',
+        'HOST': 'c5p86clmevrg5s.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com',
+        'PORT': '5432'
     }
 }
+
+
 
 
 # Password validation
